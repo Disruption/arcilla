@@ -1,0 +1,54 @@
+#OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+#Windows
+*.bat
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+#IntelliJ
+*.iml
+*.ipr
+*.iws
+*.idea
+
+#mvn
+target/
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+
+# and some more
+.apt_generated
+gen-external-apklibs/
+out
+reports
+workspace.xml
+application/res/values/maven.xml
+logback-unit-test.xml
+
+# Atlassian Plugin
+atlassian-ide-plugin.xml
+
+#Sonar folder
+.sonar/
+
