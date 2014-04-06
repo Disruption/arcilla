@@ -8,7 +8,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Arcilla</name>
+    <name>Arcilla Samples</name>
     <url>https://github.com/Disruption/arcilla</url>
     <dependencies>
         <dependency>
