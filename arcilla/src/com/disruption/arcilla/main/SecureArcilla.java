@@ -9,9 +9,10 @@ import com.sun.net.httpserver.HttpsConfigurator;
 import com.sun.net.httpserver.HttpsServer;
 
 public class SecureArcilla extends Arcilla {
+    private final static int HTTPS_DEFAULT_PORT = 443;
 
 	public SecureArcilla() throws IOException {
-		super();
+		this(HTTPS_DEFAULT_PORT);
 	}
 
 	public SecureArcilla(InetAddress inetAddress, int port) throws IOException {
@@ -19,7 +20,7 @@ public class SecureArcilla extends Arcilla {
 	}
 
 	public SecureArcilla(InetAddress inetAddress) throws IOException {
-		super(inetAddress);
+		this(inetAddress, HTTPS_DEFAULT_PORT);
 	}
 
 	public SecureArcilla(InetSocketAddress inetSocketAddress) throws IOException {
