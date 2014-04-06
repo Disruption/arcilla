@@ -19,6 +19,6 @@ public class ServerListHandler implements RequestHandler {
         // For example, encode the list as Json to generate the response body string
         String responseBody = new Gson().toJson(serverListUrls);
 
-        return new HttpResponse(200, responseBody);
+        return new HttpResponse(HttpResponse.HTTP_OK_CODE, responseBody);
     }
 }
