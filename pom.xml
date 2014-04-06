@@ -37,7 +37,8 @@
   </properties>
 
   <modules>
-    <module>arcilla</module>
+      <module>arcilla</module>
+      <module>arcilla-sample</module>
   </modules>
 
   <dependencyManagement>
